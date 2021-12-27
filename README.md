@@ -6,7 +6,9 @@
 
 ## 정리
 
-### 프로젝트 생성
+<details>
+<summary>프로젝트 생성</summary>
+<div markdown="1">       
 
 - 스프링 부트 스타터 사이트로 이동해서 스프링 프로젝트 생성
 
@@ -42,7 +44,14 @@ test {
 }
 ```
 
-### 빌드하고 실행하기
+
+
+</div>
+</details>
+
+<details>
+<summary>빌드하고 실행하기</summary>
+<div markdown="1">       
 
 ```bash
 ./gradlew build
@@ -54,7 +63,13 @@ java -jar hello-spring-0.0.1-SNAPSHOT.jar
 
 - 빌드를 하면 파일 하나로 서버를 실행할 수 있다
 
-### 스프링 웹 개발 기초
+
+</div>
+</details>
+
+<details>
+<summary>스프링 웹 개발 기초</summary>
+<div markdown="1">       
 
 - 정적 컨텐츠
     - static 폴더에 html 파일 생성하면 바로 실행 가능
@@ -97,7 +112,14 @@ java -jar hello-spring-0.0.1-SNAPSHOT.jar
 }
 ```
 
-### 테스트
+
+
+</div>
+</details>
+
+<details>
+<summary>테스트</summary>
+<div markdown="1">       
 
 - 테스트를 작성하는 것이 매우 중요
 - 전체 개발의 60% 이상을 테스트에 투자할 정도로 중요함
@@ -110,7 +132,13 @@ public void afterEach() {
 }
 ```
 
-### 스프링 빈과 의존관계
+
+</div>
+</details>
+
+<details>
+<summary>스프링 빈과 의존 관계</summary>
+<div markdown="1">       
 
 - 컴포넌트 스캔과 자동 의존관계 설정
     - @Component Annotation이 있으면 스프링 빈으로 자동 등록된다.
@@ -138,7 +166,13 @@ public class SpringConfig {
 
 ```
 
-### 스프링 DB 접근 기술
+
+</div>
+</details>
+
+<details>
+<summary>스프링 DB 접근 기술</summary>
+<div markdown="1">       
 
 - 순수 Jdbc
 - 스프링 통합 테스트
@@ -146,7 +180,13 @@ public class SpringConfig {
 - JPA
 - 스프링 데이터 JPA
 
-### AOP 적용
+
+</div>
+</details>
+
+<details>
+<summary>AOP 적용</summary>
+<div markdown="1">       
 
 - AOP: Aspect Oriented Programming
 - 공통 관심 사항, 핵심 관심 사항 분리
@@ -174,3 +214,7 @@ public class TimeTraceAop {
    }
 }  
 ```
+
+
+</div>
+</details>
